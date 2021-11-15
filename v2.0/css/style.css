@@ -82,6 +82,10 @@ nav h1{
     border-radius: 25px;
     border: none;
   }
+  .left input:hover{
+    width: 25vw;
+    transition: width 500ms;
+  }
   .right h1{
       color: goldenrod;
   }
@@ -94,4 +98,16 @@ nav h1{
       color: white;
       font-weight: 600;
       background-color: goldenrod;
+  }
+  .right input:hover{
+    background-color: rgb(218, 131, 32);
+    transition: background-color 500ms;
+  }
+
+  .Box2{
+    padding: 40px;
+    padding-left: 8vw;
+  }
+  .Box2 h1{
+    letter-spacing: 5px;
   }
